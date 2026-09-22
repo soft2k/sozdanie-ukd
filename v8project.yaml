@@ -1,0 +1,14 @@
+workPath: .build/runtime
+execution_timeout: 180000
+format: DESIGNER
+builder: DESIGNER
+source-set:
+  - name: ut
+    type: CONFIGURATION
+    path: 'УТ 11.6'
+  - name: ukd
+    type: EXTERNAL_DATA_PROCESSORS
+    path: build
+  - name: ukd-smoke
+    type: EXTERNAL_DATA_PROCESSORS
+    path: .build/smoke-source

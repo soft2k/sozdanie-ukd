@@ -1,0 +1,5 @@
+v8project.local.yaml
+.build/
+.artifacts-stage-*/
+.artifacts-stage-*.meta.json
+СозданиеУКД — копия.epf
